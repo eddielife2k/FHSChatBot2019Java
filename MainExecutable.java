@@ -15,8 +15,8 @@ public class MainExecutable
 		System.out.println (panther.getGreeting());
 		Scanner in = new Scanner (System.in);
 		String statement = in.nextLine();
-    statement = statement.toLowerCase();    
-  	while (!statement.equals("bye"))
+    		statement = statement.toLowerCase();    
+		while (!statement.equals("bye"))
 		{
 			System.out.println(panther.getResponse(statement));
 			statement = in.nextLine().toLowerCase();
