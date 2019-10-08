@@ -2,7 +2,7 @@
 // If it cannot answer a question, a response will allow users to refer their questions to administration.
 public class FHSChatBot
 {
-	private int name;
+	private String name;
   public FHSChatBot() {
     name = "Pat the Panther";
   }
