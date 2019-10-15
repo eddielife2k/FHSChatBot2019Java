@@ -9,3 +9,5 @@ Other ideas will be placed in separate files and will be called using this execu
 # ChatBot Responses Hub (FHSChatbot.java)
 This file serves as the main hub for all responses our chatbot can process.
 If it cannot answer a question, a response will allow users to refer their questions to administration.
+# ChatBot Response Processor (ResponseProcessor.java)
+The responses hub passes requests to the processor to be processed by methods in this class. 
