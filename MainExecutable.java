@@ -18,8 +18,11 @@ public class MainExecutable
     		statement = statement.toLowerCase();    
 		while (!statement.equals("bye"))
 		{
-			System.out.println(panther.getResponse(statement));
+			System.out.println(panther.getResponse(statement, panther, in));
 			statement = in.nextLine().toLowerCase();
+         if( statement.equals("no") ) {
+            statement = "bye";
+         }
 		}
 	}
 }
