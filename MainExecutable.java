@@ -10,7 +10,7 @@ public class MainExecutable
 {
 	public static void main(String[] args)
 	{
-		FHSChatbot panther = new FHSChatbot();
+		FHSChatBot panther = new FHSChatBot();
 
 		System.out.println (panther.getGreeting());
 		Scanner in = new Scanner (System.in);
